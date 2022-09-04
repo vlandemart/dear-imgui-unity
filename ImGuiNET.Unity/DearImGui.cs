@@ -21,7 +21,7 @@ namespace ImGuiNET.Unity
         {
             _camera = cameraToSet;
         }
-    
+
         ImGuiUnityContext _context;
         IImGuiRenderer _renderer;
         IImGuiPlatform _platform;
