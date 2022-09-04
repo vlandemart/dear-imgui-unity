@@ -17,6 +17,11 @@ namespace ImGuiNET.Unity
     /// </summary>
     public class DearImGui : MonoBehaviour
     {
+        public void SetCamera(Camera cameraToSet)
+        {
+            _camera = cameraToSet;
+        }
+    
         ImGuiUnityContext _context;
         IImGuiRenderer _renderer;
         IImGuiPlatform _platform;
